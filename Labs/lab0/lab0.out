@@ -1,0 +1,13 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+job 2902989 is starting on gpub021.delta.ncsa.illinois.edu
+
+
+There is 1 device supporting CUDA
+Device 0 name: NVIDIA A40
+ Computational Capabilities: 8.6
+ Maximum global memory size: 47622258688
+ Maximum constant memory size: 65536
+ Maximum shared memory size per block: 49152
+ Maximum block dimensions: 1024 x 1024 x 64
+ Maximum grid dimensions: 2147483647 x 65535 x 65535
+ Warp size: 32

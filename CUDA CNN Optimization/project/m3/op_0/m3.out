@@ -1,0 +1,39 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+==PROF== Connected to process 1446220 (/u/jwang27/ece408git/Project/m3)
+==PROF== Profiling "prefn_marker_kernel()" - 0: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 1: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 2: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 3: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 4: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 5: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 6: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 7: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 8: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 9: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 10: 0%....50%....100% - 9 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 11: 0%....50%....100% - 9 passes
+Layer Time: 10595.5 ms
+Op Time: 0.003867 ms
+Conv-GPU==
+==PROF== Profiling "prefn_marker_kernel()" - 12: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 13: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 14: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 15: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 16: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 17: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 18: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 19: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 20: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 21: 0%....50%....100% - 9 passes
+==PROF== Profiling "conv_forward_kernel" - 22: 0%....50%....100% - 9 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 23: 0%....50%....100% - 9 passes
+Layer Time: 16400.6 ms
+Op Time: 0.002985 ms
+
+Test Accuracy: 0.8714
+
+==PROF== Disconnected from process 1446220
+==PROF== Report: /u/jwang27/ece408git/Project/analysis_file.ncu-rep
